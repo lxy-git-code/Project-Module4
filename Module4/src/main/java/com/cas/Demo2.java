@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class Demo2 {
     public static void main(String[] args) throws IOException {
-
+          //123
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         byteArrayOutputStream.write("123456".getBytes());
         byte[] bytes = byteArrayOutputStream.toByteArray();
